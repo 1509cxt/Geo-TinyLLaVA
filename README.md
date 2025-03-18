@@ -7,7 +7,7 @@ Code and data for the paper "Plane Geometry Diagram Formalization via Vision-Lan
 1. Clone this repository and navigate to the folder
 
 ```bash
-git https://github.com/Geo-TinyLLaVA/Geo-TinyLLaVA.git
+git clone https://github.com/Geo-TinyLLaVA/Geo-TinyLLaVA.git
 cd Geo-TinyLLaVA 
 ```
 
