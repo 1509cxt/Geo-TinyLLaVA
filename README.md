@@ -2,6 +2,8 @@
 
 Code and data for the paper "Plane Geometry Diagram Formalization via Vision-Language Models".
 
+![ex1](images/overview.png)
+
 ## Installation and Requirements
 
 1. Clone this repository and navigate to the folder
