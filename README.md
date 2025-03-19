@@ -2,7 +2,7 @@
 
 Code and data for the paper "Plane Geometry Diagram Formalization via Vision-Language Models".
 
-Dataset [GDF86K](TinyLLaVA/GeoTinyLLaVA/GDF86K), Model Checkpoints [Geo-TinyLLaVA](https://huggingface.co/1509cxt/Geo-TinyLLaVA).
+Dataset [GDF86K](https://huggingface.co/datasets/1509cxt/GDF86K), Model Checkpoints [Geo-TinyLLaVA](https://huggingface.co/1509cxt/Geo-TinyLLaVA).
 
 ![ex1](assets/overview.png)
 
