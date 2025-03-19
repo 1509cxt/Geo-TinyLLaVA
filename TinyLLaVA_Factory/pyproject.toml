@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tinyllava"
+version = "1.0.0"
+description = "A Framework of Small-scale Large Multimodal Models."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "tiktoken", "openpyxl", "tensorboardX",
+    "shortuuid",
+    "bitsandbytes",
+    "pydantic", "markdown2[all]", "numpy==1.26.4", "scikit-learn==1.2.2",
+    "requests", "httpx", "uvicorn", "fastapi",
+    "einops-exts", "timm==0.6.13",
+    "ninja", "wandb"
+]
+
+[project.optional-dependencies]
+train = ["ninja", "wandb"]
+
+[project.urls]
+"Homepage" = "https://github.com/DLCV-BUAA/TinyLLaVABench"
+"Bug Tracker" = "https://github.com/DLCV-BUAA/TinyLLaVABench/issues"
+
+[tool.setuptools.packages.find]
+exclude = ["assets*", "benchmark*", "docs", "dist*", "playground*", "scripts*", "tests*"]
+
+[tool.wheel]
+exclude = ["assets*", "benchmark*", "docs", "dist*", "playground*", "scripts*", "tests*"]
+
