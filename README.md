@@ -38,13 +38,13 @@ pip install -r InterGPS/requirement.txt
 
 
 ## Geometry Diagram Formalization Performance Evaluation
-**More details will be published once we make this paper public.**
+
 ## Geometry Problem Solving Performance Evaluation
-**More details will be published once we make this paper public.**
+
 ## Run Geo-TinyLLaVA 
-**More details will be published once we make this paper public.**
+
 ## Train Geo-TinyLLaVA from Scrach
-**More details will be published once we make this paper public.**
+
 
 ## Acknowledgement
 The project is built on top of [InterGPS](https://github.com/lupantech/InterGPS) and [TinyLLaVA_Factory](https://github.com/TinyLLaVA/TinyLLaVA_Factory). Thanks for their wonderful works.
