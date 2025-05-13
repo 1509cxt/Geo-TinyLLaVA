@@ -35,7 +35,16 @@ pip install -e .
 cd ..
 pip install -r InterGPS/requirement.txt      
 ```
+4. data download and unzip
 
+```
+cd InterGPS
+. data/unzip_data.sh
+
+cd ..
+# download the dataset GDF86K
+git clone https://huggingface.co/datasets/1509cxt/GDF86K
+```
 
 ## Geometry Diagram Formalization Performance Evaluation
 
